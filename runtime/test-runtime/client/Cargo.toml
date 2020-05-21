@@ -6,18 +6,18 @@ edition = "2018"
 license = "GPL-3.0"
 
 [dependencies]
-sc-block-builder = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "master", features = ["test-helpers"],  default-features = false }
-substrate-test-client = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sc-block-builder = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef" }
+sc-consensus = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef" }
+sc-service = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef", features = ["test-helpers"],  default-features = false }
+substrate-test-client = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef" }
+sp-core = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef" }
 polkadot-test-runtime = { path = ".." }
 polkadot-runtime-common = { path = "../../common" }
 polkadot-primitives = { path = "../../../primitives" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef" }
+sp-api = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef" }
+sp-blockchain = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef" }
 codec = { package = "parity-scale-codec", version = "1.0.0" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-pallet-timestamp = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sc-client-api = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef" }
+pallet-timestamp = { git = "https://github.com/paritytech/substrate", rev = "e7457b1eb9980596301fe1afd36478a6725157ef" }
 futures = "0.3.1"
